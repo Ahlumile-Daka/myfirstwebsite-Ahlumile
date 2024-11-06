@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Tech Support</title>
+    <style>
+        /* General styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #1a1a2e;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content {
+            padding: 20px;
+            background-color: #fff;
+            max-width: 800px;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #1a1a2e;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            font-size: 1em;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        button[type="submit"] {
+            background-color: #162447;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #1f4068;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #1a1a2e;
+            color: #fff;
+            font-size: 0.9em;
+            margin-top: 20px;
+        }
+        
+        /* Contact information styling */
+        .contact-info {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border-radius: 8px;
+        }
+
+        .contact-info p {
+            margin: 8px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <div class="header">
+        <h1>Contact Tech Support</h1>
+        <p>Get in touch with us for assistance with any technical issues</p>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="content">
+        <h2>Contact Form</h2>
+        <form action="#" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email">
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required placeholder="Describe the issue or your question"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <!-- Additional Contact Information -->
+        <div class="contact-info">
+            <h2>Additional Contact Information</h2>
+            <p><strong>Phone Support:</strong> +1 (800) 123-4567</p>
+            <p><strong>Email Support:</strong> support@techsupport.com</p>
+            <p><strong>Office Address:</strong> 123 Tech Support Blvd, Suite 500, San Francisco, CA</p>
+            <p><strong>Support Hours:</strong> Monday - Friday, 8:00 AM - 6:00 PM</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        &copy; 2024 Tech Support Inc. All Rights Reserved.
+    </div>
+
+</body>
+</html>
